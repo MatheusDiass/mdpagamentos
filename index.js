@@ -11,6 +11,7 @@ app.get('/', (req, res) =>{
     res.send('Hello Word!');
 });
 
+//Rota de pagamento com o Mercado Pago
 app.get('/pagar', async (req, res) =>{
     var id = Date.now().toString();
     var email = 'dias.math0@outlook.com';
@@ -40,6 +41,11 @@ app.get('/pagar', async (req, res) =>{
     } catch(error){
         return res.send(error.message);
     }
+});
+
+app.post('/not', (req, res) =>{
+    console.log(req.query);
+    res.send('ok');
 });
 
 app.listen(8800, () =>{
