@@ -1,0 +1,15 @@
+{
+  "name": "nodejsmercadopago",
+  "version": "1.0.0",
+  "description": "Node.js com Mercado Pago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Dias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mercadopago": "^1.5.4"
+  }
+}
