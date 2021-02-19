@@ -48,6 +48,6 @@ app.post('/not', (req, res) =>{
     res.send('ok');
 });
 
-app.listen(8800, () =>{
+app.listen(80, () =>{
     console.log('Server is running!'); 
 });
